@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>A História da Internet</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__logo">A História da Internet</h1>
+            <nav class="nav">
+                <ul class="nav__list" id="nav-list">
+                    <li class="nav__item"><a href="#historia" class="nav__link">História</a></li>
+                    <li class="nav__item"><a href="#marcos" class="nav__link">Marcos</a></li>
+                    <li class="nav__item"><a href="#pos2007" class="nav__link">Pós-2007</a></li>
+                    <li class="nav__item"><a href="#estatisticas" class="nav__link">Estatísticas</a></li>
+                    <li class="nav__item"><a href="#futuro" class="nav__link">Futuro</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                </ul>
+                <button class="header__hamburger" id="hamburger-menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+                    <span class="header__hamburger-line"></span>
+                    <span class="header__hamburger-line"></span>
+                    <span class="header__hamburger-line"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2 class="hero__title">Uma jornada pela evolução da rede que mudou o mundo.</h2>
+                <p class="hero__subtitle">Da ARPANET à Internet das Coisas, explore os momentos cruciais que moldaram a web como a conhecemos hoje.</p>
+                <a href="#historia" class="cta-button">Comece a explorar</a>
+            </div>
+        </section>
+
+        <section id="historia" class="container section">
+            <h2 class="section__title">A Origem: ARPANET</h2>
+            <article class="section__article">
+                <p>A internet começou a tomar forma na década de 1960 como um projeto de pesquisa militar nos Estados Unidos, conhecido como ARPANET (Advanced Research Projects Agency Network). O objetivo inicial era conectar terminais de computadores em diversas localidades para facilitar a comunicação entre pesquisadores e militares. Em 1971, houve a primeira demonstração de troca de correio eletrônico. Durante os anos 1980, a rede começou a se expandir para universidades e instituições de pesquisa fora do âmbito militar, marcando o início de uma rede mais ampla e de acesso público.</p>
+            </article>
+            <article class="section__article">
+                <h2 class="section__title">A Chegada da World Wide Web</h2>
+                <p>Na década de 1990, a internet passou por uma transformação significativa com o surgimento da World Wide Web (WWW), criada por Tim Berners-Lee. A WWW tornou a internet mais acessível e navegável, permitindo a criação de websites com hiperlinks que podiam ser facilmente acessados por usuários comuns. Essa mudança revolucionou a maneira como as informações eram trocadas e consumidas. Outro marco foi em 1993, quando o navegador Mosaic foi lançado, tornando a navegação na internet mais amigável e visual.</p>
+            </article>
+        </section>
+
+        <section id="marcos" class="container section">
+            <h2 class="section__title">Marcos Históricos</h2>
+            <div class="timeline">
+                <div class="timeline__item">
+                    <div class="timeline__year">1969</div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Criação da ARPANET</h3>
+                        <p>O nascimento da rede que viria a ser a internet.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">1971</div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Primeiro E-mail</h3>
+                        <p>Ray Tomlinson envia o primeiro e-mail, um marco na comunicação digital.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">1983</div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Protocolo TCP/IP</h3>
+                        <p>Adoção do TCP/IP como protocolo padrão, unificando a comunicação na rede.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">1991</div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">World Wide Web</h3>
+                        <p>Tim Berners-Lee lança a WWW, tornando a internet acessível ao público.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">1998</div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Criação do Google</h3>
+                        <p>O surgimento do motor de busca que revolucionou a forma como encontramos informação.</p>
+                    </div>
+                </div>
+                <div class="timeline__item">
+                    <div class="timeline__year">2007</div>
+                    <div class="timeline__content">
+                        <h3 class="timeline__title">Lançamento do iPhone</h3>
+                        <p>O smartphone da Apple acelera a era da internet móvel.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pos2007" class="container section">
+            <h2 class="section__title">A Era Pós-PC: A Internet na Palma da Mão</h2>
+            <article class="section__article">
+                <h3 class="section__subtitle">A Revolução dos Smartphones e a Economia dos Aplicativos</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1580974928064-76ae03735e53?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smartphones e aplicativos">
+                    <figcaption>A revolução dos smartphones e a economia dos aplicativos.</figcaption>
+                </figure>
+                <p>O lançamento do iPhone em 2007 foi o catalisador para a era da computação móvel. Em 2008, a Apple lançou a App Store, seguida pelo Android do Google, criando um novo ecossistema de software. Em 2014, o uso da internet móvel ultrapassou o de desktops, e hoje, bilhões de pessoas passam horas em seus smartphones, utilizando aplicativos para comunicação, entretenimento e trabalho.</p>
+            </article>
+            <article class="section__article">
+                <h3 class="section__subtitle">O Domínio das Redes Sociais</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Redes sociais">
+                    <figcaption>O domínio das redes sociais.</figcaption>
+                </figure>
+                <p>As redes sociais explodiram em popularidade após 2007. O Facebook tornou-se a plataforma dominante, ultrapassando um bilhão de usuários em 2012. A década de 2010 viu o surgimento de gigantes como Instagram, Twitter, Snapchat e TikTok, que mudaram a forma como nos comunicamos, consumimos notícias e compartilhamos nossas vidas.</p>
+            </article>
+            <article class="section__article">
+                <h3 class="section__subtitle">A Ascensão da Nuvem</h3>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Computação em nuvem">
+                    <figcaption>A ascensão da computação em nuvem.</figcaption>
+                </figure>
+                <p>A computação em nuvem, liderada por serviços como Amazon Web Services (AWS), Google App Engine e Microsoft Azure, tornou-se a espinha dorsal da internet moderna. A nuvem permitiu que empresas e usuários acessassem poder computacional e armazenamento de dados de forma flexível e acessível, impulsionando a inovação e o surgimento de novos serviços.</p>
+            </article>
+            <article class="section__article">
+                <h3 class="section__subtitle">A Internet das Coisas (IoT)</h3>
+                <figure class="section__figure">
+                    <img src="https://cdn.pixabay.com/photo/2021/10/11/17/54/technology-6701504_960_720.jpg" alt="Internet das Coisas">
+                    <figcaption>A Internet das Coisas (IoT).</figcaption>
+                </figure>
+                <p>A ideia de conectar objetos do dia a dia à internet tornou-se realidade. Dispositivos como o Fitbit (2009) popularizaram a tecnologia vestível, enquanto casas e cidades inteligentes começaram a tomar forma. A IoT promete um futuro onde tudo, de eletrodomésticos a carros, estará conectado e trocando dados em tempo real.</p>
+            </article>
+            <article class="section__article">
+                <h3 class="section__subtitle">Privacidade e Segurança em Foco</h3>
+                <figure class="section__figure">
+                    <img src="https://cdn.pixabay.com/photo/2023/07/19/06/19/ai-generated-8136169_960_720.png" alt="Cibersegurança">
+                    <figcaption>Privacidade e segurança em foco.</figcaption>
+                </figure>
+                <p>A crescente digitalização trouxe novos desafios de privacidade e segurança. Escândalos como o da Cambridge Analytica (2018) e grandes vazamentos de dados levaram a uma maior conscientização sobre a importância da proteção de dados. Regulamentações como o GDPR na Europa e o CCPA na Califórnia foram criadas para dar aos usuários mais controle sobre suas informações pessoais.</p>
+            </article>
+        </section>
+
+        <section id="estatisticas" class="container section">
+            <h2 class="section__title">A Internet em Números</h2>
+            <table class="table">
+                <thead class="table__head">
+                    <tr class="table__row">
+                        <th class="table__header">Ano</th>
+                        <th class="table__header">Usuários (Em Bilhões)</th>
+                        <th class="table__header">Percentual da População (%)</th>
+                    </tr>
+                </thead>
+                <tbody class="table__body">
+                    <tr class="table__row">
+                        <td class="table__data">2020</td>
+                        <td class="table__data">4.5</td>
+                        <td class="table__data">59%</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__data">2021</td>
+                        <td class="table__data">5.1</td>
+                        <td class="table__data">63%</td>
+                    </tr>
+                    <tr class="table__row">
+                        <td class="table__data">2022</td>
+                        <td class="table__data">5.5</td>
+                        <td class="table__data">68%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="futuro" class="container section">
+            <h2 class="section__title">O Futuro da Internet</h2>
+            <p>A internet continua a evoluir a um ritmo acelerado. Tecnologias como a Internet das Coisas (IoT), Inteligência Artificial (IA), 5G e a computação quântica prometem transformar ainda mais a nossa sociedade. A web 3.0, com foco em descentralização e na semântica, aponta para um futuro onde os usuários terão mais controle sobre seus dados e a interação com a web será ainda mais inteligente e personalizada.</p>
+        </section>
+
+        <aside id="osjc" class="container section">
+            <h2 class="section__title">Apoie uma Causa</h2>
+            <div class="osjc__content">
+                <div class="osjc__text">
+                    <h3 class="section__subtitle">Obras Sociais Jerônimo Candinho (OSJC)</h3>
+                    <p>Conheça o trabalho das Obras Sociais Jerônimo Candinho e veja como a tecnologia pode ser usada para o bem.</p>
+                    <a href="https://jeronimocandinho.org" target="_blank" class="cta-button">Visite o Site</a>
+                </div>
+                <div class="osjc__media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/U05Q_oVdYng?si=isXMrtturfY6GrKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </aside>
+
+        <section id="contato" class="container section">
+            <h2 class="section__title">Fique por Dentro</h2>
+            <p>Cadastre-se para receber atualizações sobre a evolução da tecnologia e da internet.</p>
+            <form id="contact-form" class="contact-form">
+                <div class="contact-form__group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="contact-form__group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="cta-button">Cadastrar</button>
+            </form>
+            <p id="form-message" class="contact-form__message"></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 A História da Internet. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <button id="scroll-to-top" class="scroll-to-top" title="Voltar ao topo">&uarr;</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
