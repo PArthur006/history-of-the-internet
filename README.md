@@ -4,6 +4,10 @@
 
 Uma página web interativa e informativa que narra a linha do tempo da internet, desde suas origens na ARPANET até as tecnologias que moldam o futuro da web.
 
+<div align="center">
+   <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/b083d25d-1e0a-4dab-8096-53ad5500d497" />
+</div>
+
 ## 📚 Sobre o Projeto
 
 Este projeto foi desenvolvido como uma evolução do trabalho final do curso de Web Designer, com o objetivo de aplicar conceitos modernos de desenvolvimento front-end para criar uma experiência de usuário rica, informativa e visualmente agradável.
@@ -55,6 +59,9 @@ cd history-of-the-internet
 
 Este projeto foi uma excelente oportunidade para aprofundar e consolidar conhecimentos em desenvolvimento front-end. Os principais desafios foram a implementação de um CSS escalável com a metodologia BEM e a refatoração do JavaScript para que ficasse limpo e de fácil manutenção, separando as responsabilidades de cada função. O resultado é um código do qual me orgulho e que serve como uma base sólida para projetos futuros.
 
-Desenvolvido por **Pedro Arthur**.
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parthurrod06/) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PArthur006)
+<div align="center">
+    Desenvolvido por Pedro Arthur
+   
+   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parthurrod06/) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PArthur006)
+   
+</div>
