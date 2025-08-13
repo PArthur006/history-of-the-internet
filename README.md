@@ -42,7 +42,7 @@ O projeto foi construído com as ferramentas fundamentais do desenvolvimento web
 
 ```bash
 # 1. Clone o repositório
-git clone [https://github.com/seu-usuario/history-of-the-internet.git](https://github.com/seu-usuario/history-of-the-internet.git)
+git clone https://github.com/PArthur006/history-of-the-internet.git
 
 # 2. Navegue até o diretório do projeto
 cd history-of-the-internet
@@ -55,12 +55,6 @@ cd history-of-the-internet
 
 Este projeto foi uma excelente oportunidade para aprofundar e consolidar conhecimentos em desenvolvimento front-end. Os principais desafios foram a implementação de um CSS escalável com a metodologia BEM e a refatoração do JavaScript para que ficasse limpo e de fácil manutenção, separando as responsabilidades de cada função. O resultado é um código do qual me orgulho e que serve como uma base sólida para projetos futuros.
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
 Desenvolvido por **Pedro Arthur**.
 
-[LinkedIn](httpss://...) | [GitHub](https://github.com/...)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parthurrod06/) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PArthur006)
